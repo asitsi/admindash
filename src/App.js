@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={AdminDashboard} />
+        <Route path="/admindash/" exact component={AdminDashboard} />
       </Switch>
     </BrowserRouter>
   );
